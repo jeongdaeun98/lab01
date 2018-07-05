@@ -47,6 +47,7 @@ public class CustomListAdapter extends BaseAdapter{
 
             holder.NameEntry = (TextView) convertView.findViewById(R.id.NameEntry);
             holder.NumEntry = (TextView) convertView.findViewById(R.id.NumEntry);
+            holder.IDEntry = (TextView) convertView.findViewById(R.id.IDEntry);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
@@ -55,6 +56,7 @@ public class CustomListAdapter extends BaseAdapter{
         listentries entry = this.listData.get(position);
         holder.NameEntry.setText(entry.getName());
         holder.NumEntry.setText(entry.getNumber());
+        holder.IDEntry.setText(entry.getID());
 
         return convertView;
     }
@@ -71,6 +73,7 @@ public class CustomListAdapter extends BaseAdapter{
     static class ViewHolder {
         TextView NameEntry;
         TextView NumEntry;
+        TextView IDEntry;
     }
 
 }

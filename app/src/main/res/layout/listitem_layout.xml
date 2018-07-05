@@ -22,4 +22,11 @@
         android:text="TextView"
         android:textAlignment="textEnd" />
 
+    <TextView
+        android:id="@+id/IDEntry"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="TextView"
+        android:textAlignment="textEnd" />
+
 </RelativeLayout>

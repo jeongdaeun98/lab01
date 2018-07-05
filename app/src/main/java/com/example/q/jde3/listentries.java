@@ -6,12 +6,14 @@ public class listentries implements Serializable {
 
     private String NameString;
     private String NumberString;
+    private String IDString;
 
     private boolean active;
 
-    public listentries(String name, String number){
+    public listentries(String name, String number, String ID){
         this.NameString = name;
         this.NumberString = number;
+        this.IDString = ID;
         this.active = true;
     }
 
@@ -30,6 +32,10 @@ public class listentries implements Serializable {
 
     public String getName() {
         return NameString;
+    }
+
+    public String getID() {
+        return IDString;
     }
 
     public void setName(String newNumber) {
