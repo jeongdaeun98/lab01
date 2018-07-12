@@ -19,7 +19,7 @@ import android.database.Cursor;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.MediaController.MediaPlayerControl;
-
+/*
 import com.example.q.jde3.musicplayer.MusicController;
 import com.example.q.jde3.musicplayer.MusicService;
 import com.example.q.jde3.musicplayer.MusicService.MusicBinder;
@@ -120,7 +120,8 @@ public class ThreeFragment extends Fragment implements MediaPlayerControl{
 
     @Override
     public void onStop() {
-        controller.hide();
+        if (controller!=null){
+            controller.hide();}
         super.onStop();
     }
 
@@ -333,3 +334,4 @@ public class ThreeFragment extends Fragment implements MediaPlayerControl{
         return 0;
     }
 }
+*/

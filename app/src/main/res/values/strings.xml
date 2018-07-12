@@ -1,6 +1,22 @@
 <resources>
-    <string name="app_name">Lavender Explorer</string>
+    <string name="app_name">GodZiller !!</string>
     <string name="one">First tab</string>>
     <string name="two">Second tab</string>
     <string name="three">Third tab</string>
+    <string name="facebook_app_id">244756692993667</string>
+    <string name="fb_login_protocol_scheme">fb244756692993667</string>
+
+    <string name="tab_text_1">Contact</string>
+    <string name="tab_text_2">Gallery</string>
+    <string name="notice">Notice</string>
+
+    <string name="backup">Backup</string>
+    <string name="menu">Menu</string>
+    <string name="confirm">Confirm</string>
+    <string name="restore">Restore</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
 </resources>

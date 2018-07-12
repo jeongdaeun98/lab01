@@ -21,6 +21,7 @@ import android.app.PendingIntent;
 
 import com.example.q.jde3.MainActivity;
 import com.example.q.jde3.R;
+/*
 import com.example.q.jde3.ThreeFragment;
 
 public class MusicService extends Service implements
@@ -156,7 +157,7 @@ public class MusicService extends Service implements
         int importance = NotificationManager.IMPORTANCE_LOW;
         NotificationChannel mChannel = new NotificationChannel(CHANNEL_ID, name, importance);
 
-
+        Log.i("IDK", "REALLY IDK");
         builder.setContentIntent(pendInt)
                 .setSmallIcon(R.drawable.play)
                 .setTicker(songTitle)
@@ -171,12 +172,12 @@ public class MusicService extends Service implements
         mChannel.enableVibration(false);
 
         startForeground(NOTIFY_ID, not);
-        /*NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         // Hide the notification after its selected
         notificationManager.createNotificationChannel(mChannel);
 
         notificationManager.notify(NOTIFY_ID, not);
-        */
+
         mp.start();
         MainActivity.showController();
 
@@ -223,3 +224,4 @@ public class MusicService extends Service implements
         playSong();
     }
 }
+*/

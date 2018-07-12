@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <Switch
+        android:id="@+id/SearchSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제목/가수명" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:ems = "10"
+        android:layout_marginTop="10dp"
+        android:hint= "노래 제목으로..."
+        android:id = "@+id/QueryText"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="검색하기!"
+        android:textColor="@android:color/white"
+        android:id="@+id/SearchButton"
+
+        />
+
+
+</LinearLayout>
